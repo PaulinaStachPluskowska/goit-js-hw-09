@@ -14,11 +14,15 @@ buttonStart.addEventListener('click', function() {
     bodyColor.style.backgroundColor = `${getRandomHexColor()}`;
     intervalId = setInterval(function() {
     bodyColor.style.backgroundColor = `${getRandomHexColor()}`;
+    // console.log(`${getRandomHexColor()}`);
   }, 1000);
 });
 
+
+
 buttonStop.addEventListener('click', function() {
     buttonStop.setAttribute('disabled', '');
+    // console.log(intervalId);
     clearInterval(intervalId);
     intervalId = null;
     buttonStart.removeAttribute('disabled', '');
