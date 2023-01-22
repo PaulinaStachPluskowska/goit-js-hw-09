@@ -16,3 +16,64 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.text {
+  display: inline-block;
+  justify-self: center;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  justify-content: center;
+  padding-top: 10px;
+  padding-left: 10px;
+  align-self: center;
+  margin-right: 50px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #292b3d;
+  color:#d4d4d8;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.timer {
+  display: flex;
+  gap: 45px;
+  background-color: #292b3d;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #d4d4d8;
+  border-color: #e4eaef;
+  justify-content: center;
+  margin-top: 30px;;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.field {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.value {
+  font-size: 30px;
+  font-weight: 600;
+  color: #d4d4d8;
+}
+
+.label {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #e4eaef;
+}
