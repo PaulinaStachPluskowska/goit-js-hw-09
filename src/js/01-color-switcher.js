@@ -7,6 +7,7 @@ const buttonStop = document.querySelector('[data-stop]');
 const bodyColor = document.querySelector('body');
 
 let intervalId = null;
+buttonStop.setAttribute('disabled', '');
 
 buttonStart.addEventListener('click', function() {
     buttonStart.setAttribute('disabled', '');

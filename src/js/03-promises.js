@@ -27,7 +27,7 @@ function promiseSubmit(event) {
   
   let delay = parseInt(inputDelay.value);
 
-  for (let i = 0; i <= inputAmount.value; i++) {
+  for (let i = 1; i <= inputAmount.value; i++) {
     createPromise(i, delay)
       .then (({position, delay}) => {
         Notiflix.Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`);
